@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F8EFEF;
+}
+
+.beforeContent {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    ". . . ."
+    ". f f ."
+    ". f f ."
+    ". f f ."
+    ". . . .";
+}
+
+.content {
+    grid-area: f;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 350px auto;
+    grid-template-areas: 
+    "a b";
+}
+.column1 {
+    grid-area: a;
+    border-radius: 15px 0px 0px 15px;
+    background-color: #ffffff;
+}
+.contentbox1 {
+    margin: 30px;
+}
+.head {
+    padding: 10px 20px;
+    font-family: 'Rokkitt', serif;
+    font-size: 1.7em;
+    font-weight: 900;
+    color: #161843;
+}
+.subhead1 {
+    padding-left: 20px;
+    font-family: 'Muli', sans-serif;
+    font-size: 6px;
+    line-height: 23px;
+    color: #161843;
+}
+input {
+    margin: 15px 20px 0px;
+    padding: 10px;
+    width: 85%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Muli', sans-serif;
+    font-size: 6px;
+    color: #717A91;
+}
+.passwrd {
+    width: 40%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: 'Muli', sans-serif;
+    font-size: 5px;
+    display: inline-block;
+    padding: 20px 0px;
+    color: #0C6787;
+}
+.btn {
+    border: 1px solid #ccc;
+    float: right;
+    color: #ffffff;
+    background-color: #046586;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 25px;
+    padding: 15px 35px;
+}
+.line {
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid #CAD6E4;
+}
+.our {
+    padding: 15px;
+    width: fit-content;
+    font-family: 'Muli', sans-serif;
+    font-size: 5px;
+    margin: 0 auto;
+    color: #838A9E;
+}
+.fb {
+    width: fit-content;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 10px 25px;
+}
+.g {
+    width: fit-content;
+    border: 1px solid #ccc;
+    float: right;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 10px 25px;
+}
+.footer {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 25px;
+    font-family: 'Muli', sans-serif;
+    font-size: 5px;
+}
+.column2 {
+    grid-area: b;
+    background: #143;
+    border-radius: 0px 15px 15px 0px;
+}
