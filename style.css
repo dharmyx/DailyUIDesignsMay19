@@ -208,7 +208,6 @@ input {
     }
     .column1 {
         width: 90%;
-        margin: auto;
         margin-top: 15vh;
         margin-bottom: 15vh;
         grid-area: a;
@@ -217,7 +216,7 @@ input {
     }
     .contentbox1 {
         width: 90%;
-        margin: 0 auto;
+        margin: 20px auto;
     }
     .head {
         padding: 20px;
@@ -226,7 +225,7 @@ input {
     .subhead1 {
         padding-left: 20px;
         font-family: 'Muli', sans-serif;
-        font-size: 5px;
+        font-size: 12px;
         line-height: 23px;
         color: #161843;
     }
@@ -237,7 +236,7 @@ input {
         border-radius: 5px;
         border: 1px solid #ccc;
         font-family: 'Muli', sans-serif;
-        font-size: 5px;
+        font-size: 10px;
         color: #717A91;
     }
     .passwrd {
@@ -270,7 +269,7 @@ input {
         padding: 10px;
         width: fit-content;
         font-family: 'Muli', sans-serif;
-        font-size: 5px;
+        font-size: 12px;
         margin: 0 auto;
         color: #838A9E;
     }
@@ -279,7 +278,7 @@ input {
         margin-top: 0px;
         margin-left: 20px;
         padding: 8px 13px;
-        font-size: 5px;
+        font-size: 12px;
     }
     .fa-facebook {
         color: #4d53c0;
@@ -292,7 +291,7 @@ input {
         margin-right: 20px;
         margin-top: 0px;
         padding: 8px 13px;
-        font-size: 5px;
+        font-size: 12px;
     }
     .fa-google {
         color: #e72323;
@@ -305,7 +304,7 @@ input {
         padding: 20px;
         text-align: center;
         font-family: 'Muli', sans-serif;
-        font-size: 5px;
+        font-size: 12px;
     }
     .column2 {
         display: none;
