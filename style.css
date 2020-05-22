@@ -188,24 +188,26 @@ input {
    }
 
     .beforeContent {
-        width: auto !important;
-        height: auto;
+        width: 100vw;
+        height: 100vh;
         display: inline-block;
+        margin: 0 auto;
     }
     
     .content {
         grid-area: f;
         display: grid;
-        height: 90vh;
-        grid-template-columns: 100%;
+        width: 100vw;
+        height: 100vh;
+        grid-template-columns: 15%;
         grid-template-areas: 
-        "."
-        "a"
-        ".";
+        ". . ."
+        ". a ."
+        ". . .";
         box-shadow: none;
     }
     .column1 {
-        width: 85%;
+        width: 70%;
         margin: auto;
         margin-top: 15vh;
         margin-bottom: 15vh;
