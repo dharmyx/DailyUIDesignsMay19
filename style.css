@@ -49,7 +49,7 @@ body {
 .head {
     padding: 30px 20px;
     font-family: 'Rokkitt', serif;
-    font-size: 1.7em;
+    font-size: 36px;
     font-weight: 900;
     color: #161843;
 }
@@ -57,25 +57,27 @@ body {
     padding-left: 20px;
     font-family: 'Muli', sans-serif;
     font-size: 6px;
+    font-size: 16px;
     line-height: 23px;
     color: #161843;
 }
-input {
+.email {
     margin: 15px 20px 0px;
-    padding: 10px;
+    padding: 15px;
     width: 85%;
     border-radius: 5px;
     border: 1px solid #ccc;
     font-family: 'Muli', sans-serif;
-    font-size: 6px;
+    font-size: 12px;
     color: #717A91;
+    outline-style: none;
 }
 .passwrd {
     width: 40%;
     margin-left: 20px;
     margin-bottom: 20px;
     font-family: 'Muli', sans-serif;
-    font-size: 5px;
+    font-size: 12px;
     display: inline-block;
     padding: 30px 0px;
     color: #0C6787;
@@ -229,14 +231,14 @@ input {
         line-height: 23px;
         color: #161843;
     }
-    input {
-        margin: 10px 20px 0px;
-        padding: 10px;
+    .email {
+        margin: 15px 20px 0px;
+        padding: 15px;
         width: 90%;
         border-radius: 5px;
         border: 1px solid #ccc;
         font-family: 'Muli', sans-serif;
-        font-size: 14px;
+        font-size: 16px;
         color: #717A91;
         background-color: #dfdfdf;
     }
