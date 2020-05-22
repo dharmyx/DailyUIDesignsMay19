@@ -231,7 +231,7 @@ body {
   .email {
     margin: 15px 23px 0px;
     padding: 15px;
-    width: 90%;
+    width: 85%;
     border-radius: 5px;
     border: 1px solid #ccc;
     font-family: "Muli", sans-serif;
@@ -279,7 +279,7 @@ body {
     display: inline-block;
     margin-top: 0px;
     margin-left: 23px;
-    padding: 8px 12px;
+    padding: 10px 20px;
     font-size: 10px;
   }
   .fa-facebook {
@@ -292,7 +292,7 @@ body {
     border-radius: 5px;
     margin-right: 23px;
     margin-top: 0px;
-    padding: 8px 12px;
+    padding: 10px 20px;
     font-size: 10px;
   }
   .fa-google {
