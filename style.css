@@ -71,7 +71,7 @@ body {
   outline-style: none;
 }
 .passwrd {
-  width: 40%;
+  width: fit-content;
   margin-left: 20px;
   margin-bottom: 20px;
   font-family: "Muli", sans-serif;
@@ -214,21 +214,22 @@ body {
   .contentbox1 {
     width: 90%;
     margin: 20px auto;
+    border: 2px solid #000;
   }
   .head {
-    padding: 20px;
+    padding: 23px;
     font-family: "Rokkitt", serif;
     font-size: 30px;
   }
   .subhead1 {
-    padding-left: 20px;
+    padding: 0px 23px;
     font-family: "Muli", sans-serif;
     font-size: 14px;
     line-height: 23px;
     color: #161843;
   }
   .email {
-    margin: 15px 20px 0px;
+    margin: 15px 23px 0px;
     padding: 15px;
     width: 90%;
     border-radius: 5px;
@@ -239,8 +240,9 @@ body {
     background-color: #eeeeee;
   }
   .passwrd {
-    width: 50%;
-    margin-bottom: 10px;
+    width: fit-content;
+    margin-left: 23px;
+    margin-bottom: 5px;
     font-size: 12px;
   }
   .link1 {
@@ -253,9 +255,9 @@ body {
     color: #ffffff;
     background-color: #046586;
     border-radius: 5px;
-    margin-top: 8px;
-    margin-right: 25px;
-    padding: 15px 25px;
+    margin-top: 10px;
+    margin-right: 23px;
+    padding: 15px 20px;
   }
   .fa-arrow-right {
     margin-left: 10px;
@@ -276,8 +278,8 @@ body {
   .fb {
     display: inline-block;
     margin-top: 0px;
-    margin-left: 20px;
-    padding: 10px 25px;
+    margin-left: 23px;
+    padding: 8px 15px;
     font-size: 14px;
   }
   .fa-facebook {
@@ -288,9 +290,9 @@ body {
 
   .g {
     border-radius: 5px;
-    margin-right: 25px;
+    margin-right: 23px;
     margin-top: 0px;
-    padding: 10px 25px;
+    padding: 8px 15px;
     font-size: 14px;
   }
   .fa-google {
