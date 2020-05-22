@@ -214,7 +214,6 @@ body {
   .contentbox1 {
     width: 100%;
     margin: 20px auto;
-    border: 2px solid #000;
   }
   .head {
     padding: 23px;
@@ -258,6 +257,8 @@ body {
     margin-top: 10px;
     margin-right: 23px;
     padding: 13px 18px;
+    border-style: none;
+    box-shadow: 1px 5px 15px #a8daeb;
   }
   .fa-arrow-right {
     margin-left: 10px;
